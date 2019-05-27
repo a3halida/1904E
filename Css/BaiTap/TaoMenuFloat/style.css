@@ -1,0 +1,46 @@
+.wall{
+    margin: 0 auto;
+    width: 1000px;
+
+
+}
+.wall .wall1{
+    background-color: gray;
+    font-size: 32px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.wall .menu ul{
+    list-style-type: none;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+
+}
+.wall .menu ul li {
+
+    background-color: red;
+    float: left;
+
+
+}
+.wall .menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 10px 50px;
+
+}
+.wall .menu ul li a:hover{
+    background-color: tomato;
+
+
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}

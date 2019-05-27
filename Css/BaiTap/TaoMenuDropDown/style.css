@@ -1,0 +1,85 @@
+.wall{
+    margin: 0 auto;
+    width: 1000px;
+
+
+}
+.wall .wall1{
+    background-color: gray;
+    font-size: 32px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.wall .menu ul{
+    list-style-type: none;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+
+}
+nav > ul.clearfix >  li {
+
+    background-color: red;
+    float: left;
+    position: relative;
+
+}
+.wall .menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    background-color: orange;
+    padding: 10px 50px;
+
+}
+.wall .menu ul li a:hover{
+    background-color: tomato;
+
+
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .menu2{
+    display: none;
+    width:300px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+/*Thẻ menu cấp 2 cho tới cấp n*/
+nav .menu2 li.t1{
+    position: relative;
+}
+/*Thẻ menu cấp 2 cho tới cấp n*/
+nav .menu3{
+    display: none;
+    position: absolute;
+    width:300px;
+    top:1px;
+    left:300px;
+}
+/*Thẻ menu cấp 2 cho tới cấp n*/
+nav .menu3 li{
+    border: 1px dashed gray;
+}
+
+nav ul.clearfix> li:hover .menu2{
+    display: block;
+
+}
+nav .menu2 > li{
+    border: 1px solid white;
+}
+
+nav .menu2 li.t1:hover .menu3{
+    display: block;
+}
+
+
+
